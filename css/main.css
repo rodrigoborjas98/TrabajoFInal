@@ -1,0 +1,97 @@
+.navbar{
+  border:0;
+}
+#headerWrapper{
+  position:relative;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  height: 300px;
+  background-image: url(../image/logoHeader/download.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 600px;
+  background-position: top center;
+  background-attachment: fixed;
+}
+#logotext{
+  position: absolute;
+  width: 100% ;
+  height: 100% ;
+  background-image: url(../image/logoHeader/logonuevo.png);
+  background-repeat: no-repeat;
+  background-size: 80% ;
+  background-position: center;
+  top:5%;
+  /*margin-top: -290px;*/
+}
+#fore-flower{
+  position: absolute;
+  width: 100%;
+  height: 400px;
+  background-image: url(../CORRIGE/logoHeader/logo.png);
+  background-size: 25%;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  top: 1px;
+  right: -100px;
+}
+
+#back-flower{
+  position: absolute;
+  width: 100px;
+  height: 350px;
+  background-image: url(../CORRIGE/logoHeader/logo.png);
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: auto 350px;
+  top: 400px;
+  left:-35px;
+}
+#footer{
+  margin-top: 50px;
+}
+#claseChevere{
+  margin: 0 auto;
+}
+.img-thumb{
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p.TituloProducto{
+  display: block;
+font-size: 1.1em;
+margin-top: 1em;
+margin-bottom: 1em;
+margin-left: 0;
+margin-right: 0;
+font-weight: bold;
+
+white-space: nowrap;
+width: auto;
+overflow: hidden;
+text-overflow: ellipsis;
+
+}
+img.details{
+  width: 70%;
+  margin: 15px auto;
+}
+
+table.table-auto{
+  width: auto;
+  margin: 0 auto;
+}
+
+#login-form{
+  width: 50%;
+  height: 60%;
+  border: 2px solid #000;
+  border-radius: 15px;
+  box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.6);
+  margin: 7% auto;
+  padding: 15px;
+  background-color: #fff;
+
+}
